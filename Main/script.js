@@ -5,19 +5,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
         toggleArrow.addEventListener('click', () => {
             if (item.classList.contains('open')) {
-                // Якщо вже відкрито, закриваємо
+            
                 item.classList.remove('open');
-                info.style.maxHeight = '0'; // Закриваємо блок
+                info.style.maxHeight = '0'; 
             } else {
-                // Закриваємо всі інші відкриті блоки
+                
                 document.querySelectorAll('.tour-item.open').forEach(openItem => {
                     openItem.classList.remove('open');
-                    openItem.querySelector('.tour-info').style.maxHeight = '0'; // Закриваємо всі інші
+                    openItem.querySelector('.tour-info').style.maxHeight = '0'; 
                 });
 
-                // Відкриваємо поточний блок
                 item.classList.add('open');
-                info.style.maxHeight = info.scrollHeight + 'px'; // Відкриваємо поточний блок
+                info.style.maxHeight = info.scrollHeight + 'px';
             }
         });
     });

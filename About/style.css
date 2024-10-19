@@ -114,35 +114,35 @@ header {
 
 
 .main-block {
-    width: 100%; /* Ширина блоку на весь екран */
-    height: 1100px; /* Висота екрану мінус висота шапки */
-    background-color: rgba(128, 128, 128, 0.5); /* Напівпрозорий сірий фон */
-    display: flex; /* Використовуємо flexbox */
-    justify-content: center; /* Центруємо по горизонталі */
-    align-items: center; /* Центруємо по вертикалі */
-    position: relative; /* Для подальшого позиціонування */
+    width: 100%; 
+    height: 1100px; 
+    background-color: rgba(128, 128, 128, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative; 
 }
 .content {
-    width: 95%; /* Ширина контенту */
-    max-height: 1000px; /* Змінено на max-height для гнучкості */
-    display: flex; /* Використовуємо flexbox для підрозділів */
-    justify-content: space-between; /* Розподіляємо простір між підрозділами */
-    align-items: center; /* Центруємо підрозділи по вертикалі */
+    width: 95%; 
+    max-height: 1000px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 
 
 .left-side {
-    width: 100%; /* Ширина лівого блоку */
+    width: 100%;
     height: 900px;
-    color: white; /* Колір тексту */
+    color: white; 
     background-color: #222328;
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Вертикальне вирівнювання */
-    align-items: center; /* Горизонтальне вирівнювання */
-    text-align: center; /* Центрування тексту */
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
 }
 .void{
     width: 100%;
