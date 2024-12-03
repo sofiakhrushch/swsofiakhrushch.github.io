@@ -1,13 +1,11 @@
 body {
-    background-image: url('images/font.jpg'); 
+    background-image: url('images/swan.jpg'); 
     background-size: cover;
     background-position: center;
     padding-top: 0; 
     width: 100%;
     height: 1000px; 
     margin: 0; 
-    background-attachment: fixed;
-    /* background-color: #333;  */
 }
 .header {
     width: 100%;
@@ -26,9 +24,37 @@ body {
     justify-content: space-between;
     align-items: center; 
 }
+
+.logo {
+    display: inline-block;
+    margin-right: 20px; /* Відступ від меню */
+}
+
+.header-logo {
+    width: 100px; /* Розмір логотипу */
+    height: auto; /* Пропорційне масштабування */
+}
+
+
+/* Для контейнера меню */
+.menu {
+    display: inline-block;
+}
+
+/* Для соціальних іконок */
+.social-icons {
+    display: inline-block;
+    margin-left: auto;
+}
+
+
 .menu {
     max-width: 521px;
     height: 100px;
+    display: flex; /* Встановлюємо кнопки в ряд */
+    justify-content: space-between; /* Рівні інтервали між кнопками */
+    align-items: center; /* Вирівнюємо по центру */
+    gap: 20px; /* Проміжки між кнопками (за бажанням) */
 }
 .menu button {
     width: 150px;
@@ -42,6 +68,8 @@ body {
     cursor: pointer;
     transition: color 0.3s;
     font-family: "Times New Roman", Times, serif;
+    text-align: center; /* Вирівнюємо текст по центру */
+    white-space: nowrap; /* Забороняємо перенос тексту */
 }
 .menu button:hover {
     color: #ff69b4;
@@ -144,7 +172,7 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
+    text-shadow: 2px 2px 8px #000000b3; 
 }
 .text-overlay h1 {
     font-size: 48px;
@@ -181,7 +209,6 @@ body {
 }
 .tour-item.open .tour-info {
     display: block;
-    
 }
 
 
@@ -197,13 +224,16 @@ body {
 #tours-block {
     width: 100vw; 
     height: 100vh; 
-    background-color: rgba(128, 128, 128, 0.5); 
     position: relative; 
     margin-top: -1px; 
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
+    background-image: url('/images/bow.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 #tours-block h2 {
     margin-top: -40px;
@@ -227,7 +257,6 @@ body {
 }
 .tour-info p {
     font-size: 18px; 
-    color: #fff;
 }
 
 

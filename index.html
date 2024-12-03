@@ -6,14 +6,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
     <link rel="stylesheet" href="css/main.css"> 
     <title>Головна</title> 
+    <link rel="icon" href="images/favicon.png" type="image/png">
 </head> 
 <body> 
     <div class="header"> 
         <div class="container">
+            <div class="logo">
+                <img src="images/swanlogo.png" alt="Logo" class="header-logo">
+            </div>
             <div class="menu"> 
-                <button onclick="location.href='index.html'">Home</button> 
-                <button onclick="location.href='about.html'">About</button> 
-                <button onclick="location.href='author.html'">Author</button> 
+                <button onclick="location.href='index.html'">Головна</button> 
+                <button onclick="location.href='about.html'">Про Лану</button>
+                <button onclick="location.href='albums.html'">Альбоми</button> 
+                <button onclick="location.href='author.html'">Автор</button> 
             </div>
             <div class="social-icons">  
                 <div class="icons_container">
@@ -25,13 +30,17 @@
         </div>
     </div>
 
+<!-- Gallery -->
+
     <div class="gallery">
         <img src="images/lana4.jpg" alt="Лана Дель Рей">
         <div class="text-overlay">
             <h1>Lana Del Rey</h1>
-            <h2>MUSICIAN & SONGWRITER</h2>
+            <h2>Музикантка і авторка пісень</h2>
         </div>
     </div>
+
+<!-- Tours -->
 
    <div id="tours-block">
     <h2>Актуальні тури</h2>
@@ -40,21 +49,21 @@
             <span class="tour-title">Reading Festival</span>
             <span class="toggle-arrow">▼</span>
             <div class="tour-info">
-                <p>18 oct. 2024 14:40-17:40</p>
+                <p>18 жовт. 2024 14:40-17:40</p>
             </div>
         </div>
         <div class="tour-item">
             <span class="tour-title">Leeds Festival</span>
             <span class="toggle-arrow">▼</span>
             <div class="tour-info">
-                <p>14 nov. 2024 19:00-22:30</p>
+                <p>14 лист. 2024 19:00-22:30</p>
             </div>
         </div>
         <div class="tour-item">
             <span class="tour-title">Rock en Seine</span>
             <span class="toggle-arrow">▼</span>
             <div class="tour-info">
-                <p>19 feb. 2025 20:10-23:40</p>
+                <p>19 груд. 2025 20:10-23:40</p>
             </div>
         </div>
     </div>
@@ -68,9 +77,10 @@
     </div>
     <nav class="footer-nav">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="author.html">Author</a></li>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="about.html">Про Лану</a></li>
+            <li><a href="author.html">Автор</a></li>
+            <li><a href="albums.html">Альбоми</a></li>
         </ul>
     </nav>
 </footer>

@@ -1,0 +1,272 @@
+body {
+    background-image: url('/images/font.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding-top: 0; 
+    width: 100%;
+    height: 1000px; 
+    margin: 0;
+    background-attachment: fixed;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: #333;
+}
+
+
+.container {
+    width: 95%;
+    height: 100%; 
+    margin: 0 auto; 
+    display: flex;      
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 20px; /* Відступ від меню */
+}
+
+.header-logo {
+    width: 100px; /* Розмір логотипу */
+    height: auto; /* Пропорційне масштабування */
+}
+
+/* Для контейнера меню */
+.menu {
+    display: inline-block;
+}
+
+/* Для соціальних іконок */
+.social-icons {
+    display: inline-block;
+    margin-left: auto;
+}
+
+
+.menu {
+    max-width: 521px;
+    height: 100px;
+    display: flex; /* Встановлюємо кнопки в ряд */
+    justify-content: space-between; /* Рівні інтервали між кнопками */
+    align-items: center; /* Вирівнюємо по центру */
+    gap: 20px; /* Проміжки між кнопками (за бажанням) */
+}
+.menu button {
+    width: 150px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    transition: color 0.3s;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center; /* Вирівнюємо текст по центру */
+    white-space: nowrap; /* Забороняємо перенос тексту */
+}
+.menu button:hover {
+    color: #ff69b4;
+}
+@media (max-width: 768px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        gap: 5px; 
+    }
+
+    .menu button {
+        width: 100%; 
+        height: 60px; 
+        font-size: 20px; 
+    }
+}
+
+
+.social-icons {
+    width: 40%;
+    height: 100px;
+}
+.icons_container{
+    width: 260px;
+    height: 100px;
+    display: flex;            
+    justify-content: center;   
+    align-items: center;       
+    gap: 40px;
+    float: right;
+}
+.social-link {
+    width: 50px;
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+.social-link:hover {
+    color: #ff69b4; 
+}
+@media (max-width: 768px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        gap: 5px;
+    }
+
+    .menu button {
+        width: 100%; 
+        height: 60px; 
+        font-size: 20px; 
+    }
+
+    
+    .icons_container {
+        flex-direction: column; 
+        align-items: center;  
+        gap: 5px;
+        width: 100%; 
+    }
+
+    .social-link {
+        font-size: 30px; 
+    }
+}
+
+.discography {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.album {
+    background-color: #444;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.album img {
+    width: 100%;
+    height: auto;
+}
+
+.album-info {
+    padding: 15px;
+}
+
+.album-info h2 {
+    font-size: 24px;
+    color: #ff69b4;
+}
+
+.album-info p {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.album-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.album-info ul li {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff1493;
+}
+
+
+footer {
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 0; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+}
+.footer-nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+}
+.footer-nav li {
+    margin: 0 15px; 
+}
+.footer-nav a {
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+.footer-nav a:hover {
+    color: #ff69b4; 
+}
+.footer-social-icons {
+    position: absolute;
+    left: 20px; 
+    top: 10px;
+    display: flex;
+    gap: 15px;
+}
+.footer-nav {
+    text-align: center; 
+}
+.footer-nav ul {
+    list-style: none; 
+    padding: 0;
+}
+.footer-nav li {
+    display: inline;
+    margin: 0 10px; 
+}
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; 
+        align-items: center;
+        padding: 10px; 
+    }
+    
+    .footer-social-icons {
+        position: static; 
+        margin-bottom: 15px; 
+        justify-content: center; 
+        gap: 10px; 
+    }
+
+    .footer-nav ul {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .footer-nav li {
+        margin: 5px 0; 
+    }
+    
+}
