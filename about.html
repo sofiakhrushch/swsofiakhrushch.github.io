@@ -6,14 +6,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
     <link rel="stylesheet" href="css/about.css">  
     <title>Про Лану</title> 
+    <link rel="icon" href="images/favicon.png" type="image/png">
 </head> 
 <body> 
+
+<!-- Header -->
+
     <div class="header"> 
         <div class="container">
+            <div class="logo">
+                <img src="images/swanlogo.png" alt="Logo" class="header-logo">
+            </div>
             <div class="menu"> 
                 <button onclick="location.href='index.html'">Головна</button> 
-                <button onclick="location.href='about.html'">Про Лану</button> 
-                <button onclick="location.href='author.html'">Автор</button>            
+                <button onclick="location.href='about.html'">Про Лану</button>
+                <button onclick="location.href='albums.html'">Альбоми</button> 
+                <button onclick="location.href='author.html'">Автор</button>           
+
             </div> 
             <div class="social-icons">  
                 <div class="icons_container">
@@ -25,31 +34,32 @@
         </div>
     </div>
 
+<!-- Info  -->
+
     <div class="main-block"> 
         <div class="content"> 
             <div class="left-side"> 
-                <div class="void" ></div>
+                <div class="void"></div>
                 <div class="title_1">
-                    <span class="title_1"> Про</span>
+                    <span class="title_1">Про</span>
                 </div>
                 <div class="title_2">
-                    <span > Lana Del Rey</p>
+                    <span>Lana Del Rey</span>
                 </div>
                 <div class="top">
-                    <span > Лана Дель Рей, чиє справжнє ім'я Елізабет Вулридж Ґрант, народилася 21 червня 1985 року в Нью-Йорку. Її шлях до слави не був швидким, але після прориву з піснею "Video Games" у 2011 році вона стала світовою сенсацією. Її сценічне ім'я — комбінація Лани Тернер, відомої акторки, та моделі автомобіля Ford Del Rey, що символізує любов співачки до гламурного Лос-Анджелеса і свободи. </span>
+                    <span>Лана Дель Рей, чиє справжнє ім'я Елізабет Вулридж Ґрант, народилася 21 червня 1985 року в Нью-Йорку. Її шлях до слави не був швидким, але після прориву з піснею "Video Games" у 2011 році вона стала світовою сенсацією. Її сценічне ім'я — комбінація Лани Тернер, відомої акторки, та моделі автомобіля Ford Del Rey, що символізує любов співачки до гламурного Лос-Анджелеса і свободи.</span>
                 </div>
                 <div class="middle">
-                    <span >Лана Дель Рей відома своєю унікальною естетикою, яка поєднує меланхолійний поп із впливами американської культури 50-х і 60-х років. Елвіс Преслі, Ненсі Сінатра та фільми Девіда Лінча сильно вплинули на її творчість. Її пісні занурюють слухача в атмосферу ретро, переповнену темами любові, втрати і самотності. </span>
+                    <span>Лана Дель Рей відома своєю унікальною естетикою, яка поєднує меланхолійний поп із впливами американської культури 50-х і 60-х років. Елвіс Преслі, Ненсі Сінатра та фільми Девіда Лінча сильно вплинули на її творчість. Її пісні занурюють слухача в атмосферу ретро, переповнену темами любові, втрати і самотності.</span>
                 </div>
                 <div class="bottom">
-                    <span >Вона — одна з тих артисток, чия музика є більше, ніж просто саундтрек; вона створює справжні емоційні світи для своїх слухачів.</span>
+                    <span>Вона — одна з тих артисток, чия музика є більше, ніж просто саундтрек; вона створює справжні емоційні світи для своїх слухачів.</span>
                 </div> 
             </div> 
-            <div class="right-side"> 
-                <img class="Lana_img" src="images/lanad.jpg" alt="Фото Лани Дель Рей"> 
-            </div> 
         </div>  
-    </div> 
+    </div>
+    
+<!-- Music -->
 
     <div class="youtube-button">
         <h2>Найпопулярніша пісня</h2> 
@@ -60,7 +70,27 @@
             <a href="https://youtu.be/TdrL3QxjyVw?si=NDEYT2zVeWPCqt_N" target="_blank" class="btn">Переглянути відео на YouTube</a>
     </div>
 
-    
+    <div class="music-section">
+        <h2>Запрошую до прослуховування улюбленої пісні авторки сайту:</h2>
+        <p><strong>Назва пісні:</strong> Swan Song</p>
+        <audio controls>
+            <source src="music/Swan Song - Lana Del Rey.m4a" type="audio/mp3">
+            Ваш браузер не підтримує відтворення аудіо.
+        </audio>
+    </div>
+
+<!-- YouTube Videos Section/Map Section -->
+ 
+     <div class="youtube-videos">
+        <div class="video-container">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/pg93p2B5QSs?si=XtJhGVZmhZmryFfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.3111418599!2d-73.969231!3d40.7590615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2z0JzQsNC90LPQtdGC0YLQtdC9LCDQndGM0Y4t0JnQvtGA0LosINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1733240942212!5m2!1suk!2sua" width="100%" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+<!-- Footer -->
 
     <footer>
         <div class="footer-social-icons"> 
@@ -73,6 +103,7 @@
                 <li><a href="index.html">Головна</a></li>
                 <li><a href="about.html">Про Лану</a></li>
                 <li><a href="author.html">Автор</a></li>
+                <li><a href="albums.html">Альбоми</a></li>
                 </ul>
         </nav>
     </footer>
