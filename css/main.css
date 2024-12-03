@@ -1,4 +1,5 @@
 body {
+
     background-image: url('images/swan.jpg'); 
     background-size: cover;
     background-position: center;
@@ -16,7 +17,6 @@ body {
     position: relative;
     background-color: #333; 
 }
-
 .container {
     width: 95%;
     height: 100%; 
@@ -60,6 +60,7 @@ body {
     cursor: pointer;
     transition: color 0.3s;
     font-family: "Times New Roman", Times, serif;
+
     text-align: center; 
     white-space: nowrap; 
 }
@@ -80,7 +81,6 @@ body {
         font-size: 20px; 
     }
 }
-
 .social-icons {
     width: 40%;
     height: 100px;
@@ -200,7 +200,6 @@ body {
 }
 .tour-item.open .tour-info {
     display: block;
-}
 .toggle-arrow {
     font-size: 16px;
     cursor: pointer;
